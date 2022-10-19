@@ -19,8 +19,16 @@ Public Sub BCuadrado_Click()
 
 End
 
+'comentario chorra version 27.3,141596
+
 Public Sub BDoble_Click()
 
   Lresultado.Text = TBox.Text * 2
+
+End
+
+Public Sub TBox_KeyPress()
+
+  
 
 End
