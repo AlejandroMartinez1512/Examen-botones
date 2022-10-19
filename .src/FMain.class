@@ -1,0 +1,26 @@
+' Gambas class file
+
+
+Public Sub BNombre_Click()
+
+  Lresultado.Text = "Alejandro"
+
+End
+
+Public Sub BApellidos_Click()
+
+  Lresultado.Text = "Martínez Fernández"
+
+End
+
+Public Sub BCuadrado_Click()
+
+  Lresultado.Text = TBox.Text * TBox.Text
+
+End
+
+Public Sub BDoble_Click()
+
+  Lresultado.Text = TBox.Text * 2
+
+End

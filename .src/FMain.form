@@ -1,0 +1,38 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,93,92)
+  Text = ("Alejandro Martínez Fernández")
+  { Ldatos Label
+    MoveScaled(8,5,54,9)
+    Text = ("Entrada de datos")
+  }
+  { TBox TextBox
+    MoveScaled(8,12,76,11)
+    Background = &H7FFFFF&
+  }
+  { Ltresultado Label
+    MoveScaled(8,29,14,10)
+    Text = ("Resultado")
+  }
+  { Lresultado Label
+    MoveScaled(8,36,76,14)
+    Background = &HFFEF79&
+  }
+  { BNombre Button
+    MoveScaled(8,56,25,10)
+    Text = ("Nombre")
+  }
+  { BApellidos Button
+    MoveScaled(8,68,25,10)
+    Text = ("Apellidos")
+  }
+  { BCuadrado Button
+    MoveScaled(59,56,25,10)
+    Text = ("Cuadrado")
+  }
+  { BDoble Button
+    MoveScaled(59,68,25,10)
+    Text = ("Doble")
+  }
+}
